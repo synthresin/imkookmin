@@ -1,0 +1,1 @@
+usage: ttf2woff [-h] [-v] [-m METADATA] infile outfile
