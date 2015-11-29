@@ -12,7 +12,7 @@
 }
 
 body {
-	font-family : "wSDGothicNeo1R";
+	font-family : "Apple SD Gothic Neo";
 	font-size:13px;
 	background: black;
 	overflow-x:hidden;
@@ -23,7 +23,8 @@ body {
 }
 
 .bold {
-	font-family : "wSDGothicNeo1EB";	
+	font-family : "Apple SD Gothic Neo";
+  font-weight: 700;
 }
 
 .kucod_bold {
@@ -57,7 +58,7 @@ body {
 .units { position: absolute; left:0; top:0; width:100%; height:100%;}
 
 .unit {
-		position: absolute; left:0; top:0; 
+		position: absolute; left:0; top:0;
     border: 2px solid #000;
     display: -moz-inline-stack;
     display: inline-block;
@@ -67,7 +68,8 @@ body {
     *display: inline;
     background:white;
     cursor: move;
-    font-family : "wSDGothicNeo1EB", sans-serif;	
+    font-family : "Apple SD Gothic Neo";
+    font-weight: 700;
 }
 
 .unit.kucod_bold {
@@ -89,7 +91,7 @@ body {
 
 .unit.red {
 	background:#fe4600;
-	
+
 }
 
 .unit.purple {
@@ -105,7 +107,8 @@ table {background: white; border:2px solid black; border-collapse:collapse; posi
 
 td, th {border:1px dashed #cacaca; text-align:left; padding:5px;}
 td {vertical-align: top; line-height: 140%;}
-th {font-weight: bold; font-family: "wSDGothicNeo1EB",sans-serif; padding-top:1px; line-height:100%;}
+th {font-family : "Apple SD Gothic Neo";
+  font-weight: 700; padding-top:1px; line-height:100%;}
 
 
 .table_wrapper {position: absolute; padding:30px; border:2px solid black; background:white; display:none;}
@@ -122,11 +125,13 @@ td.kucod_bold {
 }
 
 .small {
-	font-family: "wSDGothicNeo1EB",sans-serif; font-size:11px;
+	font-family : "Apple SD Gothic Neo";
+  font-weight: 700; font-size:11px;
 }
 
 .time {
-	font-family: "wSDGothicNeo1EB",sans-serif;
+	font-family : "Apple SD Gothic Neo";
+  font-weight: 700;
 }
 
 .table_wrapper.eight {
@@ -171,7 +176,8 @@ td.text {padding:13px;line-height: 155%;}
 
 .underline {text-decoration: underline;}
 
-.lang_selectors {position: fixed; top:30px; left:60px; background: white; padding:15px;font-family: "wSDGothicNeo1EB",sans-serif; border:2px solid black; display: none;}
+.lang_selectors {position: fixed; top:30px; left:60px; background: white; padding:15px;font-family : "Apple SD Gothic Neo";
+  font-weight: 700;; border:2px solid black; display: none;}
 
 .lang_selectors a {color:black; text-decoration: none;}
 
